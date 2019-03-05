@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D47F7AB5222A6FD400D69944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F7AB4222A6FD400D69944 /* AppDelegate.swift */; };
-		D47F7AB7222A6FD400D69944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F7AB6222A6FD400D69944 /* ViewController.swift */; };
 		D47F7ABA222A6FD400D69944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47F7AB8222A6FD400D69944 /* Main.storyboard */; };
 		D47F7ABC222A6FD500D69944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47F7ABB222A6FD500D69944 /* Assets.xcassets */; };
 		D47F7ABF222A6FD500D69944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47F7ABD222A6FD500D69944 /* LaunchScreen.storyboard */; };
 		D47F7ACA222A6FD500D69944 /* _0190304_HarshaHallikeri_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F7AC9222A6FD500D69944 /* _0190304_HarshaHallikeri_NYCSchoolsTests.swift */; };
 		D47F7AD5222A6FD500D69944 /* _0190304_HarshaHallikeri_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F7AD4222A6FD500D69944 /* _0190304_HarshaHallikeri_NYCSchoolsUITests.swift */; };
+		D4953976222DC3B900B6EFC5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4953975222DC3B800B6EFC5 /* TableViewController.swift */; };
+		D4953978222E5BE600B6EFC5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4953977222E5BE600B6EFC5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D47F7AB1222A6FD400D69944 /* 20190304-HarshaHallikeri-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190304-HarshaHallikeri-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47F7AB4222A6FD400D69944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D47F7AB6222A6FD400D69944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D47F7AB9222A6FD400D69944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D47F7ABB222A6FD500D69944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47F7ABE222A6FD500D69944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		D47F7AD0222A6FD500D69944 /* 20190304-HarshaHallikeri-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190304-HarshaHallikeri-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47F7AD4222A6FD500D69944 /* _0190304_HarshaHallikeri_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0190304_HarshaHallikeri_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		D47F7AD6222A6FD500D69944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4953975222DC3B800B6EFC5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D4953977222E5BE600B6EFC5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				D47F7AB4222A6FD400D69944 /* AppDelegate.swift */,
-				D47F7AB6222A6FD400D69944 /* ViewController.swift */,
 				D47F7AB8222A6FD400D69944 /* Main.storyboard */,
 				D47F7ABB222A6FD500D69944 /* Assets.xcassets */,
 				D47F7ABD222A6FD500D69944 /* LaunchScreen.storyboard */,
 				D47F7AC0222A6FD500D69944 /* Info.plist */,
+				D4953975222DC3B800B6EFC5 /* TableViewController.swift */,
+				D4953977222E5BE600B6EFC5 /* DetailViewController.swift */,
 			);
 			path = "20190304-HarshaHallikeri-NYCSchools";
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D47F7AB7222A6FD400D69944 /* ViewController.swift in Sources */,
+				D4953978222E5BE600B6EFC5 /* DetailViewController.swift in Sources */,
+				D4953976222DC3B900B6EFC5 /* TableViewController.swift in Sources */,
 				D47F7AB5222A6FD400D69944 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
